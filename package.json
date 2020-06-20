@@ -4,5 +4,10 @@
   "description": "A gateway implement with nodejs for demostration.",
   "main": "main.js",
   "author": "AkariMarisa",
-  "license": "GPL v3"
+  "license": "GPL v3",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "type": "module"
 }
