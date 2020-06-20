@@ -1,4 +1,5 @@
 import express from 'express'
+import cors from 'cors'
 import logger from 'morgan'
 import swaggerJsdoc from 'swagger-jsdoc'
 import swaggerUi from 'swagger-ui-express'
@@ -7,6 +8,10 @@ import { router as indexRouter } from './router/index.js'
 const app = express()
 // Server port
 const PORT = 8000
+
+const corsOptions = {
+    optionsSuccessStatus: 200
+}
 
 // Swagger set up
 const options = {
@@ -32,6 +37,9 @@ const options = {
 const specs = swaggerJsdoc(options);
 
 function serverStartup() {
+    // Enable CORS
+    app.use(cors(corsOptions))
+
     // Morgan Logging
     app.use(logger('dev'))
 
