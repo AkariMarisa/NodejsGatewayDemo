@@ -14,3 +14,12 @@
 3. 实现接口权限控制 ( Password, OAuth, JWT )。
 4. 实现 Swagger 集成。
 5. 集群化部署。
+
+## Links
+[Express](https://expressjs.com/en/4x/api.html)
+
+[Swagger](https://swagger.io/docs/specification)
+
+[Passport](http://www.passportjs.org/docs)
+
+[gRPC](https://grpc.io/)

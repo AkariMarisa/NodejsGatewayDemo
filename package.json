@@ -4,10 +4,14 @@
   "description": "A gateway implement with nodejs for demostration.",
   "main": "main.js",
   "author": "AkariMarisa",
-  "license": "GPL v3",
+  "type": "module",
   "dependencies": {
+    "@grpc/proto-loader": "^0.5.4",
     "express": "^4.17.1",
-    "morgan": "^1.10.0"
-  },
-  "type": "module"
+    "google-protobuf": "^3.12.2",
+    "grpc": "^1.24.3",
+    "morgan": "^1.10.0",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.4"
+  }
 }
