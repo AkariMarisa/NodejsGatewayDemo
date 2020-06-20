@@ -1,0 +1,8 @@
+{
+  "name": "nodejs-gateway",
+  "version": "1.0.0",
+  "description": "A gateway implement with nodejs for demostration.",
+  "main": "main.js",
+  "author": "AkariMarisa",
+  "license": "GPL v3"
+}
